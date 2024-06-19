@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1 style="font-size:350%;">Kumiko</h1>
+        <p style="font-size:160%;">我是一位對藝術情有獨鍾的瘋子，它是我生命的一部分。我持續探索各式創作方式，
+			<br>從畫畫到雕塑、素描…，每一藝術形式皆為我表達內在的管道，
+			<br>透過創作，與人分享我的世界觀、情感和觀點。
+		</p>
+		<div id="widget ">
+  		<div class="btn-o bg" data-scribe="component:button" style="width: 100%;"><a href="https://www.instagram.com/kumiko_chen1115?igsh=bnBzM2l0OTI2ZG5r&utm_source=qr" class="btn" id="b"><i class="fa fa-instagram ft14"></i><span class="label" id="l"></span></a></div>
+		</div>
+    </section>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <p></p>
+		<iframe width="840" height="472.5" src="https://www.youtube.com/embed/-tq5xiyCOVM?si=dYBSoZxpFKXxwrMf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    
+    <section id="gallery">
+        <h1>Gallery</h1>
+        <p>This is the gallery section.</p>
+		<div class="gallery1">
+			<a target="_blank" href="作品2.jpg"><img src="作品2.jpg" alt="作品1" width="250"></a><div class="description">作品1</div>
+		</div>
+		<div class="gallery1">
+			<a target="_blank" href="作品6.jpg"><img src="作品6.jpg" alt="作品1" width="200"></a><div class="description">作品2</div>
+		</div>
+		<div class="gallery1">
+			<a target="_blank" href="作品10.jpg"><img src="作品10.jpg" alt="作品1" width="300"></a><div class="description">作品3</div>
+		</div>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact</h1>
+        <p></p>
+		<div class="container">
+  		<form action="action_page.php">
+
+    		<label for="fname">姓氏</label>
+    		<input type="text" id="fname" name="firstname" placeholder="姓">
+
+    		<label for="lname">名字</label>
+    		<input type="text" id="lname" name="lastname" placeholder="名">
+
+    		<label for="country">國家</label>
+    		<select id="country" name="country">
+      		<option value="taiwan">台灣</option>
+      		<option value="usa">美國</option>
+      		<option value="korea">韓國</option>
+    		</select>
+
+    		<label for="subject">內容</label>
+    		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    		<input type="submit" value="Submit">
+
+  		</form>
+</div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- 嵌入 JavaScript 文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
